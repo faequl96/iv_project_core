@@ -18,7 +18,7 @@ dependencies:
   iv_project_api_core:
     git:
       url: https://github.com/faequl96/iv_project_api_core.git
-      ref: 0.0.1
+      ref: 0.0.2
 
   # quick_dev_sdk:
   #   path: ../quick_dev_sdk
