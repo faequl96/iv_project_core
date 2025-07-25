@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:iv_project_core/src/models/copy_with_value.dart';
+import 'package:iv_project_core/iv_project_core.dart';
 
 extension ToCopyWithValue<T> on T {
   CopyWithValue<T> toCopyWithValue() => CopyWithValue<T>(this);
