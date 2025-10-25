@@ -5,7 +5,7 @@ import 'package:iv_project_core/iv_project_core.dart';
 class Validations {
   Validations._();
 
-  static bool validateEmptyTextEditingControllers(List<TextEditingController> textEditingControllers) {
+  static bool validateTextEditingControllers(List<TextEditingController> textEditingControllers) {
     for (final controller in textEditingControllers) {
       if (controller.text.trim().isEmpty) controller.validateEmptyText();
     }
