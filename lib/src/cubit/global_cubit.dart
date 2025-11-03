@@ -5,8 +5,8 @@ import 'package:iv_project_core/src/localization/app_localization.dart';
 class LocaleCubit extends Cubit<Locale> {
   LocaleCubit() : super(const Locale('id', 'ID'));
 
-  Future<void> set(Locale value) async {
-    await AppLocalization.reload(value);
+  Future<void> set(Locale value, {bool reloadLangAssets = true}) async {
+    if (reloadLangAssets) await AppLocalization.reload(value);
     emit(value);
   }
 }
