@@ -1,5 +1,5 @@
-class FontScale {
-  const FontScale._();
+class FS {
+  const FS._();
 
   static late double x5s;
   static late double x4s;

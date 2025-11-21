@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:iv_project_core/src/localization/app_localization.dart';
+import 'package:iv_project_core/src/app_localization.dart';
 
 class LocaleCubit extends Cubit<Locale> {
   LocaleCubit() : super(const Locale('id', 'ID'));
