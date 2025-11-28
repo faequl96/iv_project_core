@@ -1,11 +1,11 @@
 name: iv_project_core
 description: "IV Project Core"
-version: 0.0.8
+version: 0.0.9
 homepage:
 publish_to: 'none'
 
 environment:
-  sdk: ^3.10.0
+  sdk: ^3.10.1
   flutter: ">=1.17.0"
 
 dependencies:
@@ -13,11 +13,8 @@ dependencies:
     sdk: flutter
 
   go_router: ^17.0.0
-
   flutter_bloc: ^9.1.1
-
   intl: ^0.20.2
-
   shared_preferences: ^2.5.3
 
 dev_dependencies:
@@ -30,6 +27,19 @@ flutter:
     - assets/
     
   fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+
     - family: Inter
       fonts:
         - asset: assets/fonts/Inter-Light.ttf

@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
-class Screen {
-  Screen._();
+class ScreenSize {
+  ScreenSize._();
 
   static late double height;
   static late double width;
