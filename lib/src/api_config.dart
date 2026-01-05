@@ -1,7 +1,7 @@
-class ApiConfig {
-  const ApiConfig._();
+class ApiUrl {
+  const ApiUrl._();
 
-  static late final String url;
+  static late final String value;
 
-  static void set(String value) => url = '$value/api/v1';
+  static void set(String url) => value = '$url/api/v1';
 }
