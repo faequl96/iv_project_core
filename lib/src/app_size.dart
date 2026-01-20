@@ -8,7 +8,7 @@ class AppSize {
     final size = mediaQuery.size;
 
     ScreenSize.set(size);
-    FontSize.set(size.width);
+    // FontSize.set(size.width);
     SpaceSize.set(size.width);
     ShapeSize.set(size.width);
   }
