@@ -11,6 +11,7 @@ export 'src/models/copy_with_value.dart';
 export 'src/models/extra.dart';
 export 'src/services/global_context_service.dart';
 export 'src/services/navigation_service.dart';
+export 'src/services/storage_service.dart';
 export 'src/utils/date_util.dart';
 export 'src/utils/debouncer.dart';
 export 'src/utils/font_size.dart';
