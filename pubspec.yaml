@@ -5,7 +5,7 @@ homepage:
 publish_to: "none"
 
 environment:
-  sdk: ^3.10.7
+  sdk: ^3.10.8
   flutter: ">=1.17.0"
 
 dependencies:
@@ -15,6 +15,7 @@ dependencies:
   go_router: ^17.0.1
   bloc: ^9.2.0
   flutter_bloc: ^9.1.1
+  equatable: ^2.0.8
   intl: ^0.20.2
   shared_preferences: ^2.5.4
 
