@@ -4,6 +4,7 @@ export 'src/api_config.dart';
 export 'src/app_color.dart';
 export 'src/app_fonts.dart';
 export 'src/app_size.dart';
+export 'src/app_text_themes.dart';
 export 'src/cubit/global_cubit.dart';
 export 'src/extensions/extensions.dart';
 export 'src/app_localization.dart';
