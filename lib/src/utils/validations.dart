@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iv_project_core/iv_project_core.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class Validations {
   Validations._();
@@ -27,8 +26,7 @@ class Validations {
     Future<void> Function() execute,
     void Function(int remainingSeconds) onLimited,
   ) async {
-    final prefs = await SharedPreferences.getInstance();
-    final expireMillis = prefs.getInt(key);
+    final expireMillis = StorageService.getInt(key);
     final now = DateTime.now();
 
     final parts = key.split('_');
@@ -38,7 +36,7 @@ class Validations {
     if (expireMillis == null) {
       await execute();
       final expireTime = now.add(limitDuration);
-      await prefs.setInt(key, expireTime.millisecondsSinceEpoch);
+      await StorageService.setInt(key, expireTime.millisecondsSinceEpoch);
       return;
     }
 
@@ -46,7 +44,7 @@ class Validations {
     if (now.isAfter(expireTime)) {
       await execute();
       final newExpireTime = now.add(limitDuration);
-      await prefs.setInt(key, newExpireTime.millisecondsSinceEpoch);
+      await StorageService.setInt(key, newExpireTime.millisecondsSinceEpoch);
     } else {
       final remaining = expireTime.difference(now).inSeconds;
       onLimited(remaining);
