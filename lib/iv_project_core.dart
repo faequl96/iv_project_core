@@ -3,6 +3,7 @@ library;
 export 'src/api_config.dart';
 export 'src/app_color.dart';
 export 'src/app_fonts.dart';
+export 'src/app_particles.dart';
 export 'src/app_size.dart';
 export 'src/app_text_themes.dart';
 export 'src/cubit/global_cubit.dart';
