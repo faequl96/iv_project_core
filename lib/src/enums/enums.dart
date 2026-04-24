@@ -1,0 +1,1 @@
+enum AppUserViewType { me, general }
