@@ -8,7 +8,8 @@ extension ToCopyWithValue<T> on T {
 }
 
 extension IVDebug on Object {
-  void printValue({String? prefix}) => debugPrint('IV App : ${prefix != null ? '($prefix) - ' : ''}${toString()}');
+  void printValue({String? prefix}) =>
+      debugPrint('IV App : ${prefix != null ? '($prefix) - ' : ''}${toString()}');
   void inspectValue() => inspect(this);
 }
 

@@ -1,18 +1,18 @@
 name: iv_project_core
 description: "IV Project Core"
-version: 0.1.5
+version: 0.1.6
 homepage:
 publish_to: "none"
 
 environment:
-  sdk: ^3.11.5
+  sdk: ^3.12.0
 
 dependencies:
   flutter:
     sdk: flutter
 
   go_router: ^17.2.3
-  bloc: ^9.2.0
+  bloc: ^9.2.1
   flutter_bloc: ^9.1.1
   equatable: ^2.0.8
   intl: ^0.20.2

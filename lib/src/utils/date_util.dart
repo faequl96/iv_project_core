@@ -19,6 +19,9 @@ class DateUtil {
 
   static String format(DateTime dateTime, DateFormatPattern pattern) {
     final localeCubit = GlobalContextService.value.read<LocaleCubit>();
-    return DateFormat(pattern.data, localeCubit.state.languageCode == 'id' ? 'id_ID' : 'en_US').format(dateTime);
+    return DateFormat(
+      pattern.data,
+      localeCubit.state.languageCode == 'id' ? 'id_ID' : 'en_US',
+    ).format(dateTime);
   }
 }
