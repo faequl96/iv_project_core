@@ -1,6 +1,4 @@
-class H {
-  const H._();
-
+class const H._() {
   static late double x16s;
   static late double x15s;
   static late double x14s;

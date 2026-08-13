@@ -3,9 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class AppLocalization {
-  AppLocalization._();
-
+class AppLocalization._() {
   static Map<String, String> _localizedStrings = {};
 
   static Future<void> reload(Locale locale) async {

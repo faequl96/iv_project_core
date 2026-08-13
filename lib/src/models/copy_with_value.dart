@@ -1,5 +1,1 @@
-class CopyWithValue<T> {
-  const CopyWithValue(this.value);
-
-  final T value;
-}
+class const CopyWithValue<T>(final T value);

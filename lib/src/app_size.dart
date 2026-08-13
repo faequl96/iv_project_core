@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:iv_project_core/iv_project_core.dart';
 
-class AppSize {
-  const AppSize._();
-
+class const AppSize._() {
   static void set(MediaQueryData mediaQuery) {
     final size = mediaQuery.size;
 

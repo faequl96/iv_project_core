@@ -1,1 +1,4 @@
-enum AppUserViewType { me, general }
+enum AppUserViewType() {
+  me,
+  general
+}

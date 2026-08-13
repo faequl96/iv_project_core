@@ -2,9 +2,7 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 
-class AppParticles {
-  const AppParticles._();
-
+class const AppParticles._() {
   static ui.Image? circle;
   static Map<String, ui.Image> images = {};
 

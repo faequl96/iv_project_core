@@ -1,6 +1,4 @@
-class FontSize {
-  const FontSize._();
-
+class const FontSize._() {
   /// value = 8.consist
   static late double x5s;
 

@@ -1,6 +1,4 @@
-class ShapeSize {
-  const ShapeSize._();
-
+class const ShapeSize._() {
   /// value = 2.consist
   static late double x12s;
 

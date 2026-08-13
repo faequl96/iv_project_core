@@ -1,6 +1,4 @@
-class W {
-  const W._();
-
+class const W._() {
   static late double x16s;
   static late double x15s;
   static late double x14s;

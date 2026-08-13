@@ -1,6 +1,4 @@
-class SpaceSize {
-  const SpaceSize._();
-
+class const SpaceSize._() {
   /// value = 2.consist
   static late double x8s;
 

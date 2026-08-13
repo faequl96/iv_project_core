@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iv_project_core/iv_project_core.dart';
 
-class Validations {
-  Validations._();
-
+class Validations._() {
   static bool validateTextEditingControllers(List<TextEditingController> textEditingControllers) {
     for (final controller in textEditingControllers) {
       if (controller.text.trim().isEmpty) controller.validateEmptyText();

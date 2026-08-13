@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppTextThemes {
-  const AppTextThemes._();
-
+class const AppTextThemes._() {
   static TextTheme nunito() {
     final textTheme = ThemeData.light().textTheme;
 

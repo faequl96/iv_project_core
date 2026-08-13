@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppFonts {
-  const AppFonts._();
-
+class const AppFonts._() {
   static TextStyle nunito({
     bool inherit = true,
     Color? color,

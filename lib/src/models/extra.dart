@@ -1,3 +1,1 @@
-abstract class Extra {
-  const Extra();
-}
+abstract class const Extra();

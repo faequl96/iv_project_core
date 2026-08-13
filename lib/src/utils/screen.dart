@@ -1,8 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-class Screen {
-  Screen._();
-
+class Screen._() {
   static late double height;
   static late double width;
 

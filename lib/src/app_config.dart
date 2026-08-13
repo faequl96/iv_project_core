@@ -1,8 +1,6 @@
 import 'package:iv_project_core/src/enums/enums.dart';
 
-class AppConfig {
-  AppConfig._();
-
+class AppConfig._() {
   static AppUserViewType _appUserViewType = .general;
   static AppUserViewType get appUserViewType => _appUserViewType;
 

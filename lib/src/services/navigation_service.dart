@@ -1,9 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:iv_project_core/iv_project_core.dart';
 
-class NavigationService {
-  NavigationService._();
-
+class NavigationService._() {
   static late GoRouter _router;
   static GoRouter get router => _router;
 
